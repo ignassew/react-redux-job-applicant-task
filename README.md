@@ -1,24 +1,25 @@
-# Cards 
+# Technical Interview
+
+Welcome to the Technical Interview!
 
 ## Tasks
 
-Welcome to the test!
-
 You are tasked with the following:
 
-- Fix: Convert the page so it looks like the one provided in the design provided
-- Feature: Add the remove card button
+- Fix: Match the page to look like the design below:
+  ![](./design.svg)
+- Feature: Add the remove card button.
 - Feature: Hide the card number by default, allow user to show it by clicking on the card number.
-
-Once you are done with those, fork the project on Github and send it to me.
 
 Good luck!
 
-## Rules
+## Rules and tips
 
-1. Any library that you think will make the job easier is allowed (e.g. Tailwind)
+- Any library that you think will make the job easier is allowed (e.g. Tailwind).
+- You are allowed to use Google, Documentation, etc, but please be clear with me when you're using it.
+- Communication is very important to us, please talk me through everything you're doing.
 
-## Running
+## Let's get to work!
 
 First install all of the dependencies:
 
@@ -31,3 +32,5 @@ Then run the test server:
 ```sh
 $ pnpm run dev
 ```
+
+The root of the app is in [./src/App.tsx](./src/App.tsx)
